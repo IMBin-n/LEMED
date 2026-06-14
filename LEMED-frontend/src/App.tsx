@@ -120,7 +120,8 @@
 // }
 
 // export default App
-import LEMED from './components/LEMEDGallery'
+//@ts-ignore
+import LEMED from './components/LeMed_Frontend'
 
 export default function App() {
   return <LEMED />
