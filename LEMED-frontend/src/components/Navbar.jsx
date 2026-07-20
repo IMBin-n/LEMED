@@ -1,0 +1,44 @@
+import { NavLink } from "react-router-dom";
+import { useLang } from "../context/LangContext";
+
+export default function Navbar() {
+  const { t, lang, toggleLang } = useLang();
+
+  const linkClass = ({ isActive }) =>
+    [
+      "text-[0.8rem] font-normal uppercase tracking-[0.1em] text-clay",
+      "transition-colors duration-DEFAULT hover:text-brand-red",
+      isActive ? "text-ink border-b border-ink pb-0.5" : "",
+    ].join(" ");
+
+  return (
+    <nav className="fixed top-0 left-0 right-0 z-[100] flex items-center justify-between px-6 md:px-12 py-5 bg-offwhite/90 backdrop-blur-md border-b border-mist">
+      <NavLink
+        to="/"
+        className="font-display text-2xl font-light tracking-[0.12em] text-ink"
+      >
+        LeMed
+      </NavLink>
+
+      <ul className="hidden sm:flex items-center gap-5 md:gap-10 list-none">
+        {t.nav.map((item) => (
+          <li key={item.key}>
+            <NavLink to={`/${item.key}`} className={linkClass}>
+              {item.label}
+            </NavLink>
+          </li>
+        ))}
+      </ul>
+
+      <div className="flex items-center gap-3 md:gap-6">
+        <button
+          onClick={toggleLang}
+          className="border border-mist rounded-sm text-[0.72rem] tracking-[0.08em] px-3 py-1.5 text-clay transition-all duration-DEFAULT hover:border-ink hover:text-ink"
+          dir={lang === "fa" ? "ltr" : "rtl"}
+        >
+          {t.langToggle}
+        </button>
+      </div>
+    </nav>
+  );
+}

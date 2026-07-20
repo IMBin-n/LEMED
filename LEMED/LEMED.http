@@ -1,0 +1,6 @@
+@LEMED_HostAddress = http://localhost:5228
+
+GET {{LEMED_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
