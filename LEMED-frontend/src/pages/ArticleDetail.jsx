@@ -1,13 +1,24 @@
-function ArticleDetail({ article, setPage, lang, t }) {
-  const dir = lang === "fa" ? "rtl" : "ltr";
+import { useLocation, useNavigate } from "react-router-dom";
+import { useLang } from "../context/LangContext";
+
+function ArticleDetail() {
+  const { lang, t } = useLang();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const article = location.state?.article;
+  console.log(article , "article");
+    const dir = lang === "fa" ? "rtl" : "ltr";
   return (
     <div className="page" dir={dir}>
       <div className="article-detail">
-        <button className="back-btn" onClick={() => setPage("articles")}>{t.backToArticles}</button>
-        <h1>{lang === "fa" ? article.titleFA : article.title}</h1>
+        <button className="back-btn"
+            onClick={() => navigate(`/articles`)}
+        
+        >{t.backToArticles}</button>
+        <h1>{lang === "fa" ? article.articleDetails.titleFA : article.title}</h1>
         <div className="article-date" style={{ marginTop: "1rem" }}>{article.date}</div>
-        <img className="article-detail-img" src={article.image} alt={article.title} />
-        <p>{lang === "fa" ? article.excerptFA : article.excerpt}</p>
+        <img className="article-detail-img" src={article.articleDetails.image} alt={article.articleDetails.title} />
+        <p>{lang === "fa" ? article.articleDetails.excerptFA : article.articleDetails.excerpt}</p>
         <p>
           {lang === "fa"
             ? "طراحی آهسته چیزی بیش از یک ترند است — این یک فلسفه است. در دنیایی که مصرف سریع هنجار شده، ما معتقدیم که هر کیفی باید داستانی برای گفتن داشته باشد. از انتخاب چرم تا دوخت نهایی، هر مرحله با دقت و قصد انجام می‌شود."

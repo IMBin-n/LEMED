@@ -23,11 +23,12 @@ function Shop() {
 
   return (
     <div dir={dir}>
-      <h1 className="text-3xl font-bold">{t.shopTitle}</h1>
-      <div className="flex gap-2 mt-4 mb-8">
+      <h1 className="flex flex-col gap-5 text-3xl font-bold">{t.shopTitle}</h1>
+      <div style={{margin : "50px 0px 30px 10px"}} className="flex gap-2 mt-4 mb-8">
         {tags.map((tag) => (
           <button
             key={tag}
+            style={{padding : "6px 40px"}}
             className={`border px-4 py-1.5 text-sm ${
               filter === tag ? "bg-black text-white border-black" : "border-gray-300"
             }`}
@@ -37,7 +38,7 @@ function Shop() {
           </button>
         ))}
       </div>
-      <div className="grid gap-6" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))" }}>
+      <div className="grid gap-6" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", marginLeft : "10px" }}>
         {filtered.map((p) => (
           <ProductCard key={p.id} product={p} />
         ))}

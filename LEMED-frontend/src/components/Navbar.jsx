@@ -34,22 +34,19 @@ export default function Navbar() {
         ))}
       </ul>
 
-      {isAuthenticated ? (
+{isAuthenticated ? (
   <div className="flex items-center gap-3">
+    <NavLink to="/orders" className="text-xs text-gray-500 hover:text-black">
+      سفارش‌های من
+    </NavLink>
     <span className="text-sm">{user.fullName}</span>
-    <button 
-      onClick={logout} 
-      className="text-xs text-gray-400 hover:text-black"
-    >
+    <button onClick={logout} className="text-xs text-gray-400 hover:text-black">
       خروج
     </button>
   </div>
 ) : (
-  <NavLink to="/login" className="text-sm">
-    ورود
-  </NavLink>
+  <NavLink to="/login" className="text-sm">ورود</NavLink>
 )}
-
       <div className="flex items-center gap-6 md:gap-9">
         <button
           onClick={toggleLang}

@@ -13,6 +13,9 @@ import ErrorPage from "./pages/ErrorPage";
 import ShoppingCart from "./pages/shoppingCart";
 import Login from "./pages/Login";       // ← جدید
 import Register from "./pages/Register"; // ← جدید
+import Checkout from "./pages/Checkout";
+import OrderSuccess from "./pages/OrderSuccess";
+import Orders from "./pages/Orders";
 
 export default function App() {
   return (
@@ -31,6 +34,9 @@ export default function App() {
                 <Route path="about" element={<About />} />
                 <Route path="login" element={<Login />} />
                 <Route path="register" element={<Register />} />
+                <Route path="checkout" element={<Checkout />} />
+                <Route path="order-success/:id" element={<OrderSuccess />} />
+                <Route path="orders" element={<Orders />} />
               </Route>
               <Route path="*" element={<ErrorPage />} />
             </Routes>

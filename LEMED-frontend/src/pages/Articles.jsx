@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import { useLang } from "../context/LangContext";
 import { ARTICLES } from "../services/mockData";
 
-function Articles({ setPage}) {
+function Articles() {
       const { lang, t } = useLang();
+  const navigate = useNavigate();
   
   const dir = lang === "fa" ? "rtl" : "ltr";
   return (
@@ -12,7 +14,18 @@ function Articles({ setPage}) {
       </div>
       <div className="articles-grid">
         {ARTICLES.map(a => (
-          <div key={a.id} className="article-card" onClick={() => setPage({ name: "article", data: a })}>
+                  
+          <div key={a.id} className="article-card"
+          
+            onClick={() => {navigate("/articles/1", {
+  state: {
+    article: {
+      articleDetails: a,
+    },
+  },
+});}}
+          
+          >
             <div className="article-img"><img src={a.image} alt={a.title} /></div>
             <div className="article-meta">
               <div className="article-date">{a.date}</div>

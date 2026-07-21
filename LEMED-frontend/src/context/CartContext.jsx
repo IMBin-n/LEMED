@@ -4,7 +4,6 @@ const CartContext = createContext(null);
 
 export function CartProvider({ children }) {
   const [items, setItems] = useState([]);
-  // هر آیتم: { id, name, price, image, size, color, qty }
 
   function addToCart(product, size, color, qty = 1) {
     setItems((prev) => {
@@ -46,12 +45,25 @@ export function CartProvider({ children }) {
     );
   }
 
+  // ─── این تابع جدیده ───
+  function clearCart() {
+    setItems([]);
+  }
+
   const cartCount = items.reduce((sum, i) => sum + i.qty, 0);
   const cartTotal = items.reduce((sum, i) => sum + i.qty * i.price, 0);
 
   return (
     <CartContext.Provider
-      value={{ items, addToCart, removeFromCart, updateQty, cartCount, cartTotal }}
+      value={{
+        items,
+        addToCart,
+        removeFromCart,
+        updateQty,
+        clearCart,          // ← این هم جدیده، اضافه شده به value
+        cartCount,
+        cartTotal,
+      }}
     >
       {children}
     </CartContext.Provider>

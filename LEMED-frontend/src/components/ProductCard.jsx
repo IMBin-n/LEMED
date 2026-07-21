@@ -17,7 +17,7 @@ export default function ProductCard({ product }) {
           className="w-full h-full object-cover block transition-transform duration-500 group-hover:scale-[1.04]"
         />
         {product.tag && (
-          <span className="absolute top-3 right-3 bg-black text-white text-[0.65rem] tracking-wider uppercase px-2 py-1">
+          <span style={{padding : "5px 10px"}} className="absolute top-3 right-3 bg-black text-white text-[0.65rem] tracking-wider uppercase px-2 py-1">
             {product.tag}
           </span>
         )}
