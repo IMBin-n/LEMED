@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LEMED")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+835942e9f287e0a1e00283ff8398f22bdc590eeb")]
 [assembly: System.Reflection.AssemblyProductAttribute("LEMED")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LEMED")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

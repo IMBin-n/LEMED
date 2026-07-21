@@ -1,9 +1,13 @@
 import { NavLink } from "react-router-dom";
 import { useLang } from "../context/LangContext";
+import { useAuth } from "../context/AuthContext";
+
+
+
 
 export default function Navbar() {
   const { t, lang, toggleLang } = useLang();
-
+  const { user, logout, isAuthenticated } = useAuth();
   const linkClass = ({ isActive }) =>
     [
       "text-[0.8rem] font-normal uppercase tracking-[0.1em] text-clay",
@@ -30,7 +34,23 @@ export default function Navbar() {
         ))}
       </ul>
 
-      <div className="flex items-center gap-3 md:gap-6">
+      {isAuthenticated ? (
+  <div className="flex items-center gap-3">
+    <span className="text-sm">{user.fullName}</span>
+    <button 
+      onClick={logout} 
+      className="text-xs text-gray-400 hover:text-black"
+    >
+      خروج
+    </button>
+  </div>
+) : (
+  <NavLink to="/login" className="text-sm">
+    ورود
+  </NavLink>
+)}
+
+      <div className="flex items-center gap-6 md:gap-9">
         <button
           onClick={toggleLang}
           className="border border-mist rounded-sm text-[0.72rem] tracking-[0.08em] px-3 py-1.5 text-clay transition-all duration-DEFAULT hover:border-ink hover:text-ink"

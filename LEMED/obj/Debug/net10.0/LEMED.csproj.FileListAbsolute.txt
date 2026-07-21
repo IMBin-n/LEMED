@@ -156,7 +156,6 @@ C:\Users\Arman\source\repos\LEMED\LEMED\bin\Debug\net10.0\runtimes\win\lib\net9.
 C:\Users\Arman\source\repos\LEMED\LEMED\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Arman\source\repos\LEMED\LEMED\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Arman\source\repos\LEMED\LEMED\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Arman\source\repos\LEMED\LEMED\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\Arman\source\repos\LEMED\LEMED-backend\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\Arman\source\repos\LEMED\LEMED-backend\bin\Debug\net10.0\appsettings.json
 C:\Users\Arman\source\repos\LEMED\LEMED-backend\bin\Debug\net10.0\LEMED.staticwebassets.endpoints.json
@@ -316,3 +315,7 @@ C:\Users\Arman\source\repos\LEMED\LEMED-backend\obj\Debug\net10.0\refint\LEMED.d
 C:\Users\Arman\source\repos\LEMED\LEMED-backend\obj\Debug\net10.0\LEMED.pdb
 C:\Users\Arman\source\repos\LEMED\LEMED-backend\obj\Debug\net10.0\LEMED.genruntimeconfig.cache
 C:\Users\Arman\source\repos\LEMED\LEMED-backend\obj\Debug\net10.0\ref\LEMED.dll
+C:\Users\Arman\source\repos\LEMED\LEMED\obj\Debug\net10.0\LEMED.sourcelink.json
+C:\Users\Arman\source\repos\LEMED\LEMED\bin\Debug\net10.0\BCrypt-Net-Next.dll
+C:\Users\Arman\source\repos\LEMED\LEMED\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Arman\source\repos\LEMED\LEMED\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
