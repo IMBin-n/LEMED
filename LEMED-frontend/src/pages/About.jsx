@@ -1,5 +1,5 @@
 import { useLang } from "../context/LangContext";
-import image from "../assets/react.svg";
+import image from "../assets/abt-lemed.jpg";
 function About() {
    const { lang, t } = useLang ();
   

@@ -319,3 +319,4 @@ C:\Users\Arman\source\repos\LEMED\LEMED\obj\Debug\net10.0\LEMED.sourcelink.json
 C:\Users\Arman\source\repos\LEMED\LEMED\bin\Debug\net10.0\BCrypt-Net-Next.dll
 C:\Users\Arman\source\repos\LEMED\LEMED\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Arman\source\repos\LEMED\LEMED\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Arman\source\repos\LEMED\LEMED\bin\Debug\net10.0\LEMED.staticwebassets.runtime.json

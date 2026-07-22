@@ -1,0 +1,6 @@
+wwwroot\Images\bucketbag.jpg
+wwwroot\Images\clutchbag.jpg
+wwwroot\Images\dufflebag.jpg
+wwwroot\Images\hobobag (4).jpg
+wwwroot\Images\hobobag.jpg
+wwwroot\Images\totebag.jpg

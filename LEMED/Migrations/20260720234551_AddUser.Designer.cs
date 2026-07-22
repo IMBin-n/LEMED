@@ -60,7 +60,7 @@ namespace LEMED.Migrations
                         new
                         {
                             Id = 1,
-                            Image = "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80",
+                            Image = "/images/hobobag.jpg",
                             Name = "Hobo Bag",
                             NameFA = "کیف هوبو",
                             Price = 189,
@@ -69,7 +69,7 @@ namespace LEMED.Migrations
                         new
                         {
                             Id = 2,
-                            Image = "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400&q=80",
+                            Image = "https://localhost:7088/images/totebag.jpg",
                             Name = "Tote Bag",
                             NameFA = "کیف توت",
                             Price = 145,
@@ -78,10 +78,19 @@ namespace LEMED.Migrations
                         new
                         {
                             Id = 3,
-                            Image = "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80",
+                            Image = "https://localhost:7088/images/dufflebag.jpg",
                             Name = "Duffle Bag",
                             NameFA = "کیف دافل",
                             Price = 220,
+                            Tag = "Sale"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Image = "https://localhost:7088/images/clutchbag.jpg",
+                            Name = "Clutch ",
+                            NameFA = "کیف کلاچ",
+                            Price = 96,
                             Tag = "Sale"
                         });
                 });

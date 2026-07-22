@@ -22,6 +22,83 @@ namespace LEMED.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("LEMED.Models.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ShippingAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ShippingCity")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ShippingPhone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("LEMED.Models.OrderItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Color")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Size")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("UnitPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("OrderItems");
+                });
+
             modelBuilder.Entity("LEMED.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -57,7 +134,7 @@ namespace LEMED.Migrations
                         new
                         {
                             Id = 1,
-                            Image = "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80",
+                            Image = "/images/hobobag.jpg",
                             Name = "Hobo Bag",
                             NameFA = "کیف هوبو",
                             Price = 189,
@@ -66,7 +143,7 @@ namespace LEMED.Migrations
                         new
                         {
                             Id = 2,
-                            Image = "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400&q=80",
+                            Image = "https://localhost:7088/images/totebag.jpg",
                             Name = "Tote Bag",
                             NameFA = "کیف توت",
                             Price = 145,
@@ -75,7 +152,7 @@ namespace LEMED.Migrations
                         new
                         {
                             Id = 3,
-                            Image = "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80",
+                            Image = "https://localhost:7088/images/dufflebag.jpg",
                             Name = "Duffle Bag",
                             NameFA = "کیف دافل",
                             Price = 220,
@@ -109,6 +186,41 @@ namespace LEMED.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("LEMED.Models.Order", b =>
+                {
+                    b.HasOne("LEMED.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("LEMED.Models.OrderItem", b =>
+                {
+                    b.HasOne("LEMED.Models.Order", "Order")
+                        .WithMany("Items")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("LEMED.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("LEMED.Models.Order", b =>
+                {
+                    b.Navigation("Items");
                 });
 #pragma warning restore 612, 618
         }

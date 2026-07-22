@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Arman\\source\\repos\\LEMED\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\migrations\\20260720172653_addproductsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\migrations\\20260720172653_addproductsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +27,40 @@
       "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\migrations\\20260721093033_addorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\migrations\\20260721093033_addorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\migrations\\20260720164731_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\migrations\\20260720164731_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\models\\dtos\\orderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\models\\dtos\\orderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\models\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\models\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|c:\\users\\arman\\source\\repos\\lemed\\lemed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C658D667-A489-D1D7-8BD1-F3B9F4F5F885}|LEMED\\LEMED.csproj|solutionrelative:lemed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\LEMED\\LeMedApi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -48,89 +76,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Program.cs",
-              "RelativeDocumentMoniker": "LEMED\\Program.cs",
-              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Program.cs",
-              "RelativeToolTip": "LEMED\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T23:54:25.068Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "LEMED\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "LEMED\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "20260720172653_AddProductsData.cs",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Migrations\\20260720172653_AddProductsData.cs",
+              "RelativeDocumentMoniker": "LEMED\\Migrations\\20260720172653_AddProductsData.cs",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Migrations\\20260720172653_AddProductsData.cs",
+              "RelativeToolTip": "LEMED\\Migrations\\20260720172653_AddProductsData.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T23:53:29.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\appsettings.json",
-              "RelativeDocumentMoniker": "LEMED\\appsettings.json",
-              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\appsettings.json",
-              "RelativeToolTip": "LEMED\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-20T23:50:18.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthDtos.cs",
-              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\Dtos\\AuthDtos.cs",
-              "RelativeDocumentMoniker": "LEMED\\Models\\Dtos\\AuthDtos.cs",
-              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\Dtos\\AuthDtos.cs",
-              "RelativeToolTip": "LEMED\\Models\\Dtos\\AuthDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T23:50:01.657Z",
+              "WhenOpened": "2026-07-22T10:44:26.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\appsettings.json",
+              "RelativeDocumentMoniker": "LEMED\\appsettings.json",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\appsettings.json",
+              "RelativeToolTip": "LEMED\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-20T23:50:18.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Program.cs",
+              "RelativeDocumentMoniker": "LEMED\\Program.cs",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Program.cs",
+              "RelativeToolTip": "LEMED\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T23:54:25.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "LEMED\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "LEMED\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T10:44:10.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "LEMED\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Data\\AppDbContext.cs",
               "RelativeToolTip": "LEMED\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwBsAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T23:38:15.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-20T23:38:15.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\User.cs",
-              "RelativeDocumentMoniker": "LEMED\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\User.cs",
-              "RelativeToolTip": "LEMED\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "LEMED\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "LEMED\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T23:41:28.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T09:32:10.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "20260720164731_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Migrations\\20260720164731_InitialCreate.cs",
+              "RelativeDocumentMoniker": "LEMED\\Migrations\\20260720164731_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Migrations\\20260720164731_InitialCreate.cs",
+              "RelativeToolTip": "LEMED\\Migrations\\20260720164731_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T16:39:05.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\Product.cs",
               "RelativeDocumentMoniker": "LEMED\\Models\\Product.cs",
@@ -138,25 +185,95 @@
               "RelativeToolTip": "LEMED\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T23:34:00.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-20T23:34:00.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "LEMED\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "LEMED\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "20260721093033_AddOrders.cs",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Migrations\\20260721093033_AddOrders.cs",
+              "RelativeDocumentMoniker": "LEMED\\Migrations\\20260721093033_AddOrders.cs",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Migrations\\20260721093033_AddOrders.cs",
+              "RelativeToolTip": "LEMED\\Migrations\\20260721093033_AddOrders.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T23:27:18.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T16:39:11.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "OrderDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\Dtos\\OrderDtos.cs",
+              "RelativeDocumentMoniker": "LEMED\\Models\\Dtos\\OrderDtos.cs",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\Dtos\\OrderDtos.cs",
+              "RelativeToolTip": "LEMED\\Models\\Dtos\\OrderDtos.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:31:41.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "LEMED\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\OrderItem.cs",
+              "RelativeToolTip": "LEMED\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:27:46.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "LEMED\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\Order.cs",
+              "RelativeToolTip": "LEMED\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:27:02.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LEMED\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LEMED\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T23:53:29.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\Dtos\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "LEMED\\Models\\Dtos\\AuthDtos.cs",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\Dtos\\AuthDtos.cs",
+              "RelativeToolTip": "LEMED\\Models\\Dtos\\AuthDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T23:50:01.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LEMED\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Arman\\source\\repos\\LEMED\\LEMED\\Models\\User.cs",
+              "RelativeToolTip": "LEMED\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T23:41:28.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\LEMED\\LeMedApi\\appsettings.json",
               "ToolTip": "D:\\LEMED\\LeMedApi\\appsettings.json",
@@ -165,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\LEMED\\LeMedApi\\Program.cs",
               "ToolTip": "D:\\LEMED\\LeMedApi\\Program.cs",

@@ -1,10 +1,11 @@
 import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import { useLang } from "../context/LangContext";
 import { ARTICLES, PRODUCTS } from "../services/mockData";
 import ProductCard from "../components/ProductCard";
 function Landing() {
   const { lang, t } = useLang();
-  
+  const navigate = useNavigate();
   // const { lang, T } = useContext(LangContext);
   // console.log(lang, T , "fffff")
   const dir = lang === "fa" ? "rtl" : "ltr";
@@ -15,7 +16,7 @@ function Landing() {
         <div className="hero-content">
           <h1 className="hero-title">{t.heroTitle}</h1>
           <p className="hero-sub">{t.heroSub}</p>
-          <button className="hero-cta" onClick={() => setPage("shop")}>{t.shopNow}</button>
+          <button className="hero-cta" onClick={() => navigate("/shop")}>{t.shopNow}</button>
         </div>
       </div>
 

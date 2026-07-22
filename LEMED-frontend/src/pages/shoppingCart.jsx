@@ -7,16 +7,20 @@ export default function shoppingCart() {
 
   if (items.length === 0) {
     return (
-      <div className="text-center py-24">
-        <h1 className="font-serif text-4xl mb-4">Shopping Cart</h1>
-        <p className="text-gray-500 mb-8">سبد خرید شما خالی است.</p>
-        <button
-          onClick={() => navigate("/shop")}
-          className="bg-black text-white text-sm tracking-widest uppercase py-3 px-8 hover:bg-gray-800 transition-colors"
-        >
-          مشاهده‌ی فروشگاه
-        </button>
-      </div>
+      <div className="flex flex-col items-center justify-center min-h-screen gap-6">
+  <h1 className="font-serif text-4xl mb-4">Shopping Cart</h1>
+
+  <p className="text-gray-500 mb-8">
+    سبد خرید شما خالی است.
+  </p>
+
+  <button
+    onClick={() => navigate("/shop")}
+    className="bg-black text-white text-sm tracking-widest uppercase py-12 px-32 hover:bg-gray-800 transition-colors"
+  >
+    مشاهده‌ی فروشگاه
+  </button>
+</div>
     );
   }
 

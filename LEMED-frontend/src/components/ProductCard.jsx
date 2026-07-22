@@ -4,7 +4,7 @@ import { useLang } from "../context/LangContext";
 export default function ProductCard({ product }) {
   const { lang } = useLang();
   const navigate = useNavigate();
-
+ console.log(product.image);
   return (
     <div
       className="cursor-pointer group"

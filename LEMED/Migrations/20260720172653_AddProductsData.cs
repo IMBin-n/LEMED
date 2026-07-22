@@ -17,9 +17,10 @@ namespace LEMED.Migrations
                 columns: new[] { "Id", "Image", "Name", "NameFA", "Price", "Tag" },
                 values: new object[,]
                 {
-                    { 1, "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80", "Hobo Bag", "کیف هوبو", 189, "New" },
-                    { 2, "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400&q=80", "Tote Bag", "کیف توت", 145, "" },
-                    { 3, "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80", "Duffle Bag", "کیف دافل", 220, "Sale" }
+                    { 1, "https://localhost:7088/images/hobobag.jpg", "Hobo Bag", "کیف هوبو", 189, "New" },
+                    { 2, "https://localhost:7088/images/totebag.jpg", "Tote Bag", "کیف توت", 145, "" },
+                    { 3, "https://localhost:7088/images/dufflebag.jpg", "Duffle Bag", "کیف دافل", 220, "Sale" },
+                    { 4, "https://localhost:7088/images/clutchbag.jpg", "Clutch", "کلاچ", 96, "Sale" }
                 });
         }
 
@@ -40,6 +41,10 @@ namespace LEMED.Migrations
                 table: "Products",
                 keyColumn: "Id",
                 keyValue: 3);
+            migrationBuilder.DeleteData(
+                table: "Products",
+                keyColumn: "Id",
+                keyValue: 4);
         }
     }
 }

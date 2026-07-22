@@ -12,6 +12,8 @@ namespace LEMED.Data
 
         public DbSet<Product> Products { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Order> Orders { get; set; }        // ← جدید
+        public DbSet<OrderItem> OrderItems { get; set; } // ← جدید
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -23,7 +25,7 @@ namespace LEMED.Data
                     NameFA = "کیف هوبو",
                     Price = 189,
                     Tag = "New",
-                    Image = "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80"
+                    Image = "https://localhost:7088/images/hobobag.jpg"
                 },
 
                 new Product
@@ -33,7 +35,7 @@ namespace LEMED.Data
                     NameFA = "کیف توت",
                     Price = 145,
                     Tag = "",
-                    Image = "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400&q=80"
+                    Image = "https://localhost:7088/images/totebag.jpg"
                 },
 
                 new Product
@@ -43,7 +45,17 @@ namespace LEMED.Data
                     NameFA = "کیف دافل",
                     Price = 220,
                     Tag = "Sale",
-                    Image = "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80"
+                    Image = "https://localhost:7088/images/dufflebag.jpg"
+                },
+
+                new Product
+                {
+                    Id = 4,
+                    Name = "Clutch",
+                    NameFA = "کیف کلاچ",
+                    Price = 96,
+                    Tag = "Sale",
+                    Image = "https://localhost:7088/images/clutchbag.jpg"
                 }
             );
         }
