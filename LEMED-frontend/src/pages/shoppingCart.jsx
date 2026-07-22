@@ -25,10 +25,10 @@ export default function shoppingCart() {
   }
 
   return (
-    <div>
-      <h1 className="font-serif text-4xl mb-10">Shopping Cart</h1>
+    <div >
+      <h1 className="font-serif text-4xl mb-6">Shopping Cart</h1>
 
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-15">
         {items.map((item) => (
           <div
             key={`${item.id}-${item.size}-${item.color}`}
